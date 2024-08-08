@@ -1,4 +1,4 @@
-# Use an official Node.js runtime as a parent image
+# Use an official Node.js runtime as a parent image 
 FROM node:lts-buster-slim
 
 # Set the working directory
