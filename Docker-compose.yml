@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    image: simahdri/javascript-calculator-web:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+  api:
+    image: simahdri/javascript-calculator-api:latest
+    ports:
+      - "3001:3001"
